@@ -662,7 +662,7 @@ footer {
       <div class="step fade-up" style="transition-delay:0.1s">
         <div class="step-num">2</div>
         <div class="step-title">Conectás tu número de WhatsApp</div>
-        <p class="step-desc">A través de Twilio, tu número de WhatsApp queda vinculado al agente. Los huéspedes escriben como siempre.</p>
+        <p class="step-desc">Vinculamos tu número de WhatsApp Business al agente en minutos —compatible con Twilio o Meta—. Los huéspedes escriben como siempre.</p>
       </div>
       <div class="step fade-up" style="transition-delay:0.2s">
         <div class="step-num">3</div>
@@ -742,6 +742,36 @@ footer {
         <p class="feat-desc">El agente recomienda restaurantes, playas y atracciones cercanas a la propiedad con caché inteligente para respuestas instantáneas.</p>
       </div>
 
+      <div class="feat-card fade-up" style="transition-delay:0.3s">
+        <div class="feat-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 2h12v16l-2.3-1.5L11.4 18 9 16.5 6.6 18 4.3 16.5 4 18z"/><path d="M7 6h6M7 9.2h6M7 12.4h3.5"/>
+          </svg>
+        </div>
+        <div class="feat-title">Comprobantes de pago</div>
+        <p class="feat-desc">Cuando el huésped avisa que pagó, el agente le pide la foto del comprobante de transferencia, la guarda y notifica al propietario para que confirme. Cero idas y vueltas.</p>
+      </div>
+
+      <div class="feat-card fade-up" style="transition-delay:0.35s">
+        <div class="feat-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+            <rect x="2" y="3.5" width="16" height="14.5" rx="2"/><path d="M2 8h16M7 2v3M13 2v3"/><path d="M8 11l4 4M12 11l-4 4"/>
+          </svg>
+        </div>
+        <div class="feat-title">Mantenimiento programado</div>
+        <p class="feat-desc">Bloqueás fechas por mantenimiento y el agente deja de ofrecer y reservar esos días automáticamente. Si hay conflicto con una reserva, te avisa en el panel.</p>
+      </div>
+
+      <div class="feat-card fade-up" style="transition-delay:0.4s">
+        <div class="feat-icon">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M11.5 3.5l5 5-9 9H2.5v-5z"/><path d="M10 5l5 5"/>
+          </svg>
+        </div>
+        <div class="feat-title">Gestión de reservas</div>
+        <p class="feat-desc">Desde el panel reprogramás, reubicás o suspendés reservas con validación de solapamientos y mantenimiento. Pausás o reactivás propiedades sin perder el historial.</p>
+      </div>
+
     </div>
   </div>
 </section>
@@ -758,7 +788,7 @@ footer {
 
       <!-- CONVO 1: Reserva -->
       <div class="convo-wrap fade-up">
-        <div class="convo-label">🏠 Consulta y reserva</div>
+        <div class="convo-label">🏠 Reserva y pago</div>
         <div class="phone-sm">
           <div class="phone-screen">
             <div class="wa-status-bar" style="font-size:9px;padding:7px 14px 4px">
@@ -788,6 +818,27 @@ footer {
               <div class="wa-msg wa-msg-agent" style="font-size:10.5px;padding:5px 8px 3px">
                 ✅ <strong>Reserva #52 creada!</strong><br>Check-in: 20/02 · 14:00hs<br>Te mando los datos de pago ahora mismo 🎉
                 <div class="wa-time" style="font-size:8.5px">10:16</div>
+              </div>
+              <div class="wa-msg wa-msg-user" style="font-size:10.5px;padding:5px 8px 3px">
+                Listo, ya hice la transferencia ✅
+                <div class="wa-time" style="font-size:8.5px">10:24 <span class="wa-tick">✓✓</span></div>
+              </div>
+              <div class="wa-msg wa-msg-agent" style="font-size:10.5px;padding:5px 8px 3px">
+                ¡Genial! Para confirmar, ¿me pasás una foto del comprobante? 🧾
+                <div class="wa-time" style="font-size:8.5px">10:24</div>
+              </div>
+              <div class="wa-msg wa-msg-user" style="padding:4px 4px 3px">
+                <div style="width:118px;height:74px;border-radius:6px;background:linear-gradient(135deg,#efe7d6,#fff);border:1px solid rgba(0,0,0,0.08);display:flex;flex-direction:column;justify-content:center;padding:8px;gap:3px">
+                  <div style="font-size:7.5px;font-weight:700;letter-spacing:0.04em;color:#5a5248">COMPROBANTE · TRANSFERENCIA</div>
+                  <div style="height:3px;background:rgba(0,0,0,0.1);border-radius:2px;width:82%"></div>
+                  <div style="height:3px;background:rgba(0,0,0,0.1);border-radius:2px;width:58%"></div>
+                  <div style="font-size:10px;font-weight:700;color:#16a34a;margin-top:2px">$54.000 ✓</div>
+                </div>
+                <div class="wa-time" style="font-size:8.5px">10:25 <span class="wa-tick">✓✓</span></div>
+              </div>
+              <div class="wa-msg wa-msg-agent" style="font-size:10.5px;padding:5px 8px 3px">
+                ¡Recibido! 🧾 El propietario revisa el comprobante y te confirma en breve. ¡Gracias!
+                <div class="wa-time" style="font-size:8.5px">10:25</div>
               </div>
             </div>
           </div>
@@ -1004,7 +1055,7 @@ footer {
         <span class="stack-chip-icon">🤖</span> Claude AI (Anthropic)
       </div>
       <div class="stack-chip">
-        <span class="stack-chip-icon">💬</span> WhatsApp via Twilio
+        <span class="stack-chip-icon">💬</span> WhatsApp Business · Twilio / Meta
       </div>
       <div class="stack-chip">
         <span class="stack-chip-icon">🗺</span> Google Maps API
@@ -1050,7 +1101,7 @@ footer {
         <a href="#features">Features</a>
         <a href="#agente">Demo</a>
       </div>
-      <div class="footer-copy">© 2025 RENTAHUB · Todos los derechos reservados</div>
+      <div class="footer-copy">© 2026 RENTAHUB · Todos los derechos reservados</div>
     </div>
   </div>
 </footer>
