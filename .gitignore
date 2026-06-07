@@ -1,0 +1,7 @@
+# Volcados de error del shell (Cygwin/MSYS bash en Windows)
+*.stackdump
+
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
