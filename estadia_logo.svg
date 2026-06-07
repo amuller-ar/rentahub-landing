@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="260" viewBox="0 0 800 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(20,20)">
+    <path d="M40 10 H140 Q160 10 160 30 Q160 50 140 50 H80 V170 H140 Q160 170 160 190 Q160 210 140 210 H40 Q10 210 10 180 V40 Q10 10 40 10Z"
+          fill="url(#g)"/>
+    <path d="M55 70 L105 85 L105 195 L55 210 Z" fill="white"/>
+    <circle cx="73" cy="140" r="4" fill="#1D4ED8"/>
+  </g>
+
+  <text x="230" y="120" font-family="Arial, Helvetica, sans-serif"
+        font-size="78" font-weight="700" fill="#0F172A">ESTADIA</text>
+
+  <text x="233" y="175" font-family="Arial, Helvetica, sans-serif"
+        font-size="24" letter-spacing="2" fill="#64748B">
+    RESERVAS INTELIGENTES PARA ALQUILERES TEMPORARIOS
+  </text>
+</svg>
